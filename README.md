@@ -1,0 +1,2 @@
+# Gerar desconto em promoção
+
