@@ -14,7 +14,7 @@ def finalizar_compra():
     for i in range(len(compra)):
         total = total + compra[i]
         #Verifica os indexes
-        if i == 0 or i % 2 == 0:#verifica se é par, exceto o index 0
+        if i % 2 == 0:#verifica se é par
             #Soma os valores se o if for True
             soma = soma + compra[i]
     #Imprime na tela os valores da compra
